@@ -1,0 +1,130 @@
+@import url(../fonts/RBNo3.1-Book.otf);
+
+@font-face {
+  font-family: "RBno";
+  src: url(../fonts/RBNo3.1-Book.otf);
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url(../fonts/proximaNova.otf);
+}
+
+body {
+  background-color: #131313;
+}
+
+.rbno {
+  font-family: "RBno", cursive;
+}
+
+.nova {
+  font-family: "Proxima Nova", cursive;
+}
+
+.bg-btn {
+    background-color: #BF252F;
+    color: white;
+}
+
+.bg-btn:hover {
+    background-color: #d4343f;
+    color: white;
+
+}
+
+.bg-gamer {
+  background-image: url(../img/gamer.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+.bg-kb {
+  background-image: url(../img/teclado.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.icon {
+  font-size: 3rem;
+  color: #a1a1a1;
+  transition: all ease .3s;
+}
+
+.icon:hover {
+  color: #ffffff;
+  transition: all ease .3s;
+}
+
+.btn-compra {
+  background-color: #131313;
+  color: white;
+}
+
+.btn-compra:hover {
+  background-color: #d4343f;
+    color: white;
+}
+
+.btn-vaciar {
+  background-color: #131313;
+  color: white;
+}
+
+.btn-vaciar:hover {
+  background-color: #d4343f;
+    color: white;
+}
+
+.x {
+  color: #131313;
+}
+
+.x:hover {
+  color: #d4343f;
+}
+
+.unset {
+  all: unset;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito{
+  display: none;
+}
+.submenu:hover #carrito{
+  display: block;
+  position: absolute;
+  right:0;
+
+  top:100%;
+  z-index: 1;
+  background-color: white;
+  padding: 30px;
+  min-height: 600px;
+  min-width: 500px;
+}
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+#lista-cursos .row {
+  margin-bottom:20px;
+}
+.agregar-carrito {
+  margin:10px 0;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  background: white;
+}
